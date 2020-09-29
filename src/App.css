@@ -1,0 +1,85 @@
+.mainBox {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box {
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  background-color: #c2bcc9;
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: -5 px;
+  padding-left: 5px;
+  background-color: teal;
+}
+
+.display {
+  width: 100%;
+  height: 30%;
+  background-color: black;
+  color: white;
+  row-gap: 10px;
+}
+.display1 {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  text-align: right;
+  font-size: 30px;
+}
+.display2 {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  text-align: right;
+  font-size: 30px;
+
+}
+ .container{
+  display:flex;
+  height:70%;
+  width:100%;
+  flex-flow:column;
+} 
+
+ .operators-top{
+  background-color:rosybrown;
+  height: 20%;
+  width :100%;
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+.numbers{
+background-color: dodgerblue;
+  height:80%;
+  width:100%;
+  display: flex;
+  flex-flow:row;
+} 
+.digits{
+  background-color: peachpuff;
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+.operators-right{
+  background-color:rgb(102, 97, 97);
+  height:100%;
+  width:20%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+ 

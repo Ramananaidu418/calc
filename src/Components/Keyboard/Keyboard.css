@@ -1,0 +1,15 @@
+.row{
+    height: 20%;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: peachpuff;
+}
+.wraper{
+    width:100%;
+    height: 100%;
+    align-items: space-evenly;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
